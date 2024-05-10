@@ -11,6 +11,6 @@ describe('Footer component', () => {
         // ... nothing
 
         // Assert
-        expect(screen.getByRole('link', {})).toHaveAttribute('href', 'https://github.com/lstierney/recipe-website-frontend')
+        expect(screen.getByRole('link', {})).toHaveAttribute('href', '')
     });
 });
